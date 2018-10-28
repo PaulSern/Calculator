@@ -1,0 +1,23 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/19.png",
+      "default_popup": "popup.html",
+      "default_title": "Cloudy Calculator"
+   },
+   "description": "A shockingly versatile calculator for Chrome. (Formerly Chromey Calculator)",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbQ9CqoOMVwM4JY9rXYIrqDLpAgLteiulvvwdrXPXeWNzDp6VXjeXo3fume4Nk9GP+kqfionbAX8a7X0KhbIx+kbFvyZmS4FYK80D4U3SAY0QK9OUn1ZEdGexfEsKPp8yHDAE/i1kcVYB1F/X/qjiYt5WX8kf0d0Cxqh1EF1KjPQIDAQAB",
+   "manifest_version": 2,
+   "name": "Cloudy Calculator",
+   "options_page": "options.html",
+   "permissions": [ "http://*.google.com/", "https://*.google.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.1.6"
+}
